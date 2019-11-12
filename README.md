@@ -1,7 +1,7 @@
-##Welcomу
+## Welcome
 
 Hi everyone! This is my first todo-app on React.js! 
-You can see the result here(https://todo-app-ksu-burn.herokuapp.com.)
+You can see the result [here](https://todo-app-ksu-burn.herokuapp.com.)
 
 The application contains information about me, my repositories and my contacts.
 In the Todo section, you can add a new case, edit and delete existing cases.
