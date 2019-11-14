@@ -8,6 +8,14 @@ import styles from './App.module.css';
 const App = () => (
   <Router>
     <div className={styles.wrap}>
+    <a 
+      href='https://webheroschool.ru/'
+      target='_blank'
+      rel='noopener noreferrer'
+      className={styles.school_link}
+    >
+      <div className={styles.school_logo}></div>
+    </a>
       <div className={styles.menu_list}>
         <NavLink to='/todo' className={styles.button} activeClassName={styles.active}>
           Дела

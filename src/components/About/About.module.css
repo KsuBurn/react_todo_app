@@ -142,11 +142,12 @@
 }
 
 @media (min-width: 321px) and (max-width: 409px) {
+  
   .wrap {
-    max-width: 390px;
-    min-width: 310px;
-    height: 550px;
-    padding: 20px;
+    background-size: 60px;
+    width: 300px;
+    height: auto;
+    margin: auto;
   }
 
   .user_card,
@@ -155,10 +156,23 @@
     min-width: 310px;
   }
 
+  .repo_card {
+    padding: 10px;
+  }
+
+  .name {
+    margin-bottom: 5px;
+    font: normal bold 18px/100% Roboto;
+  }
+
   .user_avatar {
     margin-right: 10px;
-    height: 150px;
+    height: 100px;
     width: auto;
+  }
+
+  .bio {
+   margin-bottom: 5px;
   }
 }
 
@@ -193,10 +207,5 @@
 
   .bio {
    margin-bottom: 5px;
-  }
-
-  .email_link,
-  .phone_link {
-   margin-bottom: 5px; 
   }
 }

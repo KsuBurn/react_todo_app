@@ -3,8 +3,8 @@
 }
 
 .repo_list {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .repo_name_wrap {
@@ -60,6 +60,10 @@
   
   .repo_list {
     padding: 0;
+  }
+  
+  .repo_name_wrap {
+    padding: 6px;
   }
 }
 

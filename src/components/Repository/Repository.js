@@ -3,10 +3,17 @@ import styles from './Repository.module.css';
 import classnames from 'classnames';
 
 
-const Repository = ({url, name, language, stargazers_count, forks_count, updated_at }) => (
+const Repository = ({ url, name, language, stargazers_count, forks_count, updated_at }) => (
   <div>
     <div className={styles.repo_name_wrap}>
-      <a href={url} className={styles.repo_name_link}>{name}</a>
+      <a 
+        href={url}
+        className={styles.repo_name_link}
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        { name }
+      </a>
     </div>
     <div className={styles.info_about_repo}>
       <span className={
@@ -17,7 +24,7 @@ const Repository = ({url, name, language, stargazers_count, forks_count, updated
           [styles.js_circle]: language === 'JavaScript'
         })
       }>
-        {language}
+        { language }
       </span>
       <span className={styles.star}>{stargazers_count}</span>
       <span className={styles.forks}>{forks_count}</span>

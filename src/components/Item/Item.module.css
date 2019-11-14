@@ -8,7 +8,7 @@
   height: auto;
   width: auto;
   margin: 0 4px 8px 0;
-  padding: 9px 12px;
+  padding: 8px 12px;
   font: normal normal 14px/16px Roboto;
 }
 
@@ -57,9 +57,8 @@
   background: none;
   border: none;
   color: #000;
-  font: normal normal 14px/16px Roboto;
+  font: normal normal 14px/18px Roboto;
   width: 100%;
-  height: inherit;
 }
 
 .item_done {

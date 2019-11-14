@@ -15,7 +15,7 @@ class Todo extends React.Component {
     isEmpty: false,
     isExist: false,
     isEditing: false,
-    sorting: 'Все',
+    sorting: 'Все'
   };
 
   onClickDone = id => {
@@ -104,7 +104,6 @@ class Todo extends React.Component {
       break;
     };
     
-
     return(
       <Card className={styles.wrap}>
         <div className={styles.header}>

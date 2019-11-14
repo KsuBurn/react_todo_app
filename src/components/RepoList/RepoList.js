@@ -6,7 +6,7 @@ const RepoList = ({ repoList, infoAboutUser, onClickNext, onClickBack, firstRepo
 
 return(
   <div className={styles.wrap}>
-    {repoList.length < 5 ?
+    {repoList.length < 6 ?
       <ol className={styles.repo_list}>
         {repoList.map(repo => (
           <li key={repo.id} className={styles.repo_name_wrap}>

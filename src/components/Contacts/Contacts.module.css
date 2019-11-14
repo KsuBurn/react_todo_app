@@ -113,10 +113,18 @@
   background-size: cover;
 }
 
+@media (min-width: 321px) and (max-width: 409px) {
+
+  .email_link,
+  .phone_link {
+    margin-bottom: 5px; 
+  }
+}
+
 @media (max-width: 320px) {
 
   .email_link,
   .phone_link {
-   margin-bottom: 5px; 
+    margin-bottom: 5px; 
   }
 }
