@@ -145,7 +145,8 @@
   
   .wrap {
     background-size: 60px;
-    width: 300px;
+    max-width: 390px;
+    min-width: 310px;
     height: auto;
     margin: auto;
   }
