@@ -21,7 +21,7 @@
   color: #fff;
   background: #356EFF;
   border-radius: 6px;
-  font: normal normal 14px/16px Roboto;
+  font: normal normal 14px/16px 'Roboto';
   height: auto;
   max-width: 240px;
   padding: 8px 11px;
@@ -35,7 +35,7 @@
   color: #fff;
   background: #356EFF;
   border-radius: 6px;
-  font: normal normal 14px/16px Roboto;
+  font: normal normal 14px/16px 'Roboto';
   height: auto;
   width: auto;
   padding: 8px 11px;
@@ -67,7 +67,7 @@
 
 
 .button {
-  background: url(./img/plus.png);
+  background: url(./img/plus.svg);
   height: 36px;
   width: 36px;
 }
@@ -82,7 +82,7 @@
   
   .exist_field:before,
   .empty_field:before {
-    font: normal normal 12px/16px Roboto;
+    font: normal normal 12px/16px 'Roboto';
   }
 }
 

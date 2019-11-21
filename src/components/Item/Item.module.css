@@ -9,7 +9,7 @@
   width: auto;
   margin: 0 4px 8px 0;
   padding: 8px 12px;
-  font: normal normal 14px/16px Roboto;
+  font: normal normal 14px/16px 'Roboto';
 }
 
 .item_wrap:hover {
@@ -50,15 +50,16 @@
 }
 
 .checkbox:checked + .checkbox_label:before {
-  background: url('./img/checked.png') center center no-repeat;
+  background: url('./img/checked.svg') center center no-repeat;
 }
 
 .item_text {
   background: none;
   border: none;
   color: #000;
-  font: normal normal 14px/18px Roboto;
+  font: normal normal 14px/18px 'Roboto';
   width: 100%;
+  outline: none;
 }
 
 .item_done {
@@ -82,8 +83,12 @@
   margin: 0 10px;
 }
 
+.pencil_icon_done {
+  display: none;
+}
+
 .delete_icon {
-  background: url(./img/delete.png) no-repeat;
+  background: url(./img/delete.svg) no-repeat;
   height: 16px;
   width: 16px;
 }

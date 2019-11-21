@@ -42,6 +42,7 @@ class InputItem extends React.Component {
 
 InputItem.propTypes = {
   onClickAdd: PropTypes.func.isRequired,
+  isExist: PropTypes.bool.isRequired,
   isEmpty: PropTypes.bool.isRequired
 };
 

@@ -37,7 +37,13 @@ class Item extends React.Component {
             { value }
           </div>
         </label>
-        <div className={styles.pencil_icon} onClick={()=> onClickRedact(id, isDone)}></div>
+        <div
+          className={classnames({
+            [styles.pencil_icon]: true,
+            [styles.pencil_icon_done]: isDone
+          })}
+          onClick={()=> onClickRedact(id, isDone)}
+        ></div>
         <div className={styles.delete_icon} onClick={() => onClickDelete(id)}></div>
       </div>
     );
@@ -50,7 +56,11 @@ Item.defaultProps = {
 
  Item.propTypes = {
   value: PropTypes.string.isRequired,
-  isDone: PropTypes.bool.isRequired
+  isDone: PropTypes.bool.isRequired,
+  onClickDone: PropTypes.func.isRequired,
+  onClickDelete: PropTypes.func.isRequired,
+  onClickRedact: PropTypes.func.isRequired,
+  onChangeItem: PropTypes.func.isRequired
  };
 
 export default Item;
